@@ -251,7 +251,7 @@ function applyPlugin(bow, pluginName){
       : require(pluginName)
   }
   catch(err){
-    throw new Error('plugin "' + pluginName + '" not found');
+    throw new Error('plugin "' + pluginName + '" not found from '+path.resolve("./"));
   }
 
   trans = plugin._transform || plugin;
