@@ -1,0 +1,24 @@
+{
+  "name": "bowman",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "bower manager for build tools",
+  "authors": [
+    "Derek Jones <contact.derekjones@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "bowman",
+    "bower"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

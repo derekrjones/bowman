@@ -2,7 +2,7 @@
   "name": "bowman",
   "version": "0.0.0",
   "main": "index.js",
-  "description": "Bower manager for use with build tools",
+  "description": "bower manager for build tools",
   "homepage": "https://github.com/derekrjones/bowman",
   "repository": {
     "type": "git",
@@ -25,7 +25,8 @@
     "rimraf": "^2.2.8"
   },
   "keywords": [
-    "bowman"
+    "bowman",
+    "bower"
   ],
   "directories": {
     "test": "test"
