@@ -10,4 +10,8 @@ function t1(){
   });
 }
 
-t1();
+describe("test", function(){
+  it("should ...", function(){
+
+  })
+})

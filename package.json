@@ -18,6 +18,10 @@
     "glob": "~4.0.2",
     "topo": "~1.0.0"
   },
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "chai-fs": "^0.1.0"
+  },
   "keywords": [
     "bowman"
   ],
