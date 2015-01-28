@@ -14,7 +14,7 @@
 - build tools for browserify, gulp and angular
 - supports both Promises and Node-Style Callbacks
 
-# Command Line
+# Command Line (to be implemented)
 
 ```
 bowman bundle [components] {OPTIONS} outfile.js outfile.css
