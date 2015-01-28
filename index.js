@@ -288,7 +288,7 @@ function configure(opts){
 
 function loadConfig(opts){
   var fPath = findup('bower.json', opts && {cwd: opts.cwd});
-  if(!fPath) throw new Error("bower.json not found");
+  if(!fPath) throw new Error("bower.json not found"+opts.cwd);
 
   var basePath = path.dirname(fPath);
 

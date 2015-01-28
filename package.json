@@ -19,8 +19,10 @@
     "topo": "~1.0.0"
   },
   "devDependencies": {
+    "chai": "1.10.0",
+    "chai-fs": "^0.1.0",
     "mocha": "^2.0.1",
-    "chai-fs": "^0.1.0"
+    "rimraf": "^2.2.8"
   },
   "keywords": [
     "bowman"
