@@ -18,6 +18,7 @@ describe("test", function(){
   })
 
   it("should automatically create a bowman file", function(){
+    this.timeout(4000);
     return bowman({update: false, cwd: SRC})
       .then(function(bow){
         return expect(DEST).to.be.a.file();
@@ -34,4 +35,6 @@ describe("test", function(){
         return expect(DEST).to.be.a.file();
       })
   })
+
+  it("should fail if plugins are missing")
 })
