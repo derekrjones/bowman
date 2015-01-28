@@ -1,4 +1,4 @@
-var bowman = require('bowman');
+var bowman = require('../');
 var _ = require('lodash');
 
 function t1(){
