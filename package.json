@@ -1,8 +1,15 @@
 {
   "name": "bowman",
-  "version": "0.0.1",
-  "description": "Bowman",
+  "version": "0.0.0",
   "main": "index.js",
+  "description": "Bower manager for use with build tools",
+  "homepage": "https://github.com/derekrjones/bowman",
+  "repository": {
+    "type": "git",
+    "url": "https://derekrjones@github.com/derekrjones/bowman.git"
+  },
+  "license": "MIT",
+  "author": "Derek Jones <contact.derekjones@gmail.com>",
   "dependencies": {
     "bower": "1.3.8",
     "lodash": "~2.4.1",
@@ -11,12 +18,16 @@
     "glob": "~4.0.2",
     "topo": "~1.0.0"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "bowman"
   ],
-  "author": "Derek Jones <contact.derekjones@gmail.com>",
-  "license": "MIT"
+  "directories": {
+    "test": "test"
+  },
+  "bugs": {
+    "url": "https://github.com/derekrjones/bowman/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
