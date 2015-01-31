@@ -18,7 +18,7 @@ describe("test", function(){
   })
 
   it("should automatically create a bowman file", function(){
-    this.timeout(4000);
+    this.timeout(8000);
     return bowman({update: false, cwd: SRC})
       .then(function(bow){
         return expect(DEST).to.be.a.file();
