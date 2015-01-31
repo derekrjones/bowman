@@ -24,7 +24,6 @@
     "coveralls": "^2.11.2",
     "istanbul": "^0.3.5",
     "mocha": "^2.0.1",
-    "mocha-lcov-reporter": "0.0.1",
     "rimraf": "^2.2.8"
   },
   "keywords": [
@@ -38,6 +37,7 @@
     "url": "https://github.com/derekrjones/bowman/issues"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha --report text -- -R spec"
   }
 }
