@@ -6,7 +6,7 @@ var PLUGIN_NAME = "COMPONENTIZE";
 componentize.GROUPS = {
   "scripts": [".js"],
   "styles": [".css"],
-  "fonts": [".woff", ".ttf", ".otf", ".eot", ".svg"],
+  "fonts": [".woff", ".ttf", ".otf", ".eot", ".svg", ".woff2"],
   "images": [".png", ".jpg", ".jpeg", ".gif"],
   "json": [".json"],
   "templates": [".html"],
