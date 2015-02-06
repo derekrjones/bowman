@@ -1,7 +1,7 @@
 {
   "name": "bowman",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "bower manager for build tools",
   "authors": [
     "Derek Jones <contact.derekjones@gmail.com>"
